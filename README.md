@@ -1,0 +1,1 @@
+# slush-ts-functions-firestore
