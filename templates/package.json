@@ -1,0 +1,21 @@
+{
+    "name": "<%= appName %>",
+    "description": "<%= appDescription %>",
+    "version": "<%= appVersion %>",
+    "homepage": "https://github.com/<%= userName %>/<%= appName %>",
+    "author": {
+        "name": "<%= authorName %>",
+        "email": "<%= authorEmail %>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/<%= userName %>/<%= appNameSlug %>"
+    },
+    "license": "MIT",
+    "main": "server.js",
+    "dependencies": {
+    },
+    "engine": {
+        "node": ">=5.0.0"
+    }
+}

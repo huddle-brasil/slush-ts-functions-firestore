@@ -1,6 +1,6 @@
 # Slush Slush-ts-functions-firestore [![Build Status](https://secure.travis-ci.org/Lyukio/slush-slush-ts-functions-firestore.png?branch=master)](https://travis-ci.org/Lyukio/slush-slush-ts-functions-firestore) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-slush-ts-functions-firestore.png)](http://badges.enytc.com/for/npm/slush-slush-ts-functions-firestore)
 
-> Slush generator for firebase functions projects using typescript and firebase firestore
+> Slush generator for creating a template for functions projects using typescript and firestore
 
 
 ## Getting Started

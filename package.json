@@ -1,6 +1,6 @@
 {
     "name": "slush-slush-ts-functions-firestore",
-    "description": "Slush generator for firebase functions projects using typescript and firebase firestore",
+    "description": "Slush generator for creating a template for functions projects using typescript and firestore",
     "version": "0.1.0",
     "homepage": "https://github.com/Lyukio/slush-slush-ts-functions-firestore",
     "author": {
