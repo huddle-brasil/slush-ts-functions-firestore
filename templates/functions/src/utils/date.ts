@@ -3,6 +3,7 @@ import * as moment from 'moment-timezone'
 
 export const toMoment = (fields, format = false) => {
     for (const i in fields) {
+        if (fields[i] === null) continue
         if (fields[i] instanceof firestore.Timestamp) {
             fields[i] = moment(fields[i].toDate())
             if (format) fields[i] = moment(fields[i]).tz('America/Sao_Paulo').format()
