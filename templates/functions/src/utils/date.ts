@@ -3,7 +3,7 @@ import * as moment from 'moment-timezone'
 
 export const toMoment = (fields, format = false) => {
     if (!fields) return fields
-    if (typeof fields == "string") return moment(fields)
+    if (typeof fields === "string") return moment(fields)
     if (fields instanceof firestore.Timestamp) return moment(fields.toDate())
     for (const i in fields) {
         if (!fields[i]) continue
