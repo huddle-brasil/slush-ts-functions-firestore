@@ -5,7 +5,7 @@ import * as moment from 'moment-timezone'
 import { toMoment } from "../utils/date"
 import { ENV }  from "../config/env"
 
-export class SoloGameController{
+export class ExampleController{
     private async callEndpoint(body) {
         let result
         try {
@@ -68,4 +68,4 @@ export class SoloGameController{
     }
 }
 
-export const instance = new SoloGameController() 
+export const instance = new ExampleController() 
