@@ -44,3 +44,7 @@ export const toTimestamp = fields => {
     }
     return fields
 }
+
+export const subtraction = (date, date2, measurement = "seconds") => {
+    return moment(toMoment(date)).diff(toMoment(date2), measurement)
+}
